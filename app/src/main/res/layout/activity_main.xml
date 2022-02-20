@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"
+        android:inputType="textPersonName"
+        android:id="@+id/name"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee age"
+        android:inputType="number"
+        android:id="@+id/age"
+
+        /><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee designation"
+        android:inputType="textPersonName"
+        android:id="@+id/designation"
+
+        /><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee salary"
+        android:inputType="number"
+        android:id="@+id/salary"
+
+        /><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee id"
+        android:inputType="number"
+        android:id="@+id/id"
+
+        /><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee bonus"
+        android:inputType="number"
+        android:id="@+id/bonus"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveDataBtn"
+        android:backgroundTint="#CDDC39"
+        android:text="save Data"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View-Data"
+            android:backgroundTint="#FF5722"
+            android:id="@+id/viewData"
+            /> <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update-Data"
+            android:backgroundTint="#FFEB3B"
+            android:id="@+id/updateData"
+            /><Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete-Data"
+            android:backgroundTint="#FF001E"
+            android:id="@+id/deleteData"
+            />
+    </LinearLayout>
+
+</LinearLayout>

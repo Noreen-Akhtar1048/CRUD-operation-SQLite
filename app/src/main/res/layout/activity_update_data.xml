@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UpdateDataActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Name"
+        android:inputType="textPersonName"
+        android:id="@+id/uname"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee age"
+        android:inputType="number"
+        android:id="@+id/uage"
+
+        /><EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Employee designation"
+    android:inputType="textPersonName"
+    android:id="@+id/udesignation"
+
+    /><EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Employee salary"
+    android:inputType="number"
+    android:id="@+id/usalary"
+
+    /><EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Employee id"
+    android:inputType="number"
+    android:id="@+id/uid"
+
+    /><EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Employee bonus"
+    android:inputType="number"
+    android:id="@+id/ubonus"
+
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usaveDataBtn"
+        android:backgroundTint="#4CAF50"
+        android:text="Update Data"
+        /><Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uBack"
+        android:backgroundTint="#009688"
+        android:text="Go Back"
+        />
+
+</LinearLayout>
